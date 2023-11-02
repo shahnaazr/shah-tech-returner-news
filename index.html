@@ -25,27 +25,39 @@
         <a href="./jobs.html">Jobs</a>
       </nav>
     </header>
-    <form>
-      <label for="preferences">Preference: </label>
-      <input
-        type="text"
-        id="preferences"
-        name="preferences"
-        placeholder="preferences"
-      />
-    </form>
+    <section role="search">
+      <h2>Search this website for Accessibility Features</h2>
+      <form method="get">
+        <fieldset>
+          <legend>Search this website:</legend>
+          <label for="preferences">
+            <input
+              type="search"
+              id="preferences"
+              name="preferences"
+              placeholder="Search..."
+              maxlength="200"
+            />
+          </label>
+          <button type="submit" title="Search this website now">Search</button>
+        </fieldset>
+      </form>
+    </section>
     <main>
       <article>
         <h2>Accessibility Features: Easy Wins</h2>
         <h3>Handy tips on how to create accessible websites for everyone</h3>
-        <a href="mailto:jimmy.eggs@hotmail.com">Jim Eggs</a>
-        <time datetime="2021-08-04">04.08.21</time>
+        <address>
+          <a href="mailto:jimmy.eggs@hotmail.com">Jim Eggs</a>
+          <time datetime="2021-08-04">04.08.21</time>
+        </address>
         <figure>
           <img
-            src="./accessibility.jpeg"
-            width="640"
-            height="360"
-            alt="A white laptop keboard with focus on the accessibility key which is blue in color and has a small globe on top of the keyboard"
+            src="./accessibility.png"
+            alt="A white laptop keboard with focus on the accessibility key which
+          is blue in color and has a small globe on top of the keyboard"
+            width="931"
+            height="628"
           />
           <figcaption>A globe on a keyboard</figcaption>
         </figure>
@@ -59,9 +71,9 @@
             understanding around different user needs.
           </p>
           <p>
-            Designing pages that are accessible for everyone shouldn’t be too
-            difficult. The developers at Tech Returners News have collated an
-            ‘easy wins' checklist for Web page accessibility.
+            Designing pages that are accessible for everyone shouldn&#39;t be
+            too difficult. The developers at Tech Returners News have collated
+            an &#8216;easy wins&#8217; checklist for Web page accessibility.
           </p>
           <p>
             Keep this guide handy… When creating your own websites you can check
@@ -118,7 +130,7 @@
           <p>
             For more information on Web Accessibility view:
             <a href="https://www.w3.org/WAI/test-evaluate/preliminary/"
-              >Easy Checks – A First Review of Web Accessibility</a
+              >Easy Checks &#8211; A First Review of Web Accessibility</a
             >
           </p>
         </section>
@@ -132,8 +144,8 @@
         </section>
       </article>
       <section>
-        <h3>More stories</h3>
-        <ol>
+        <h2>More stories</h2>
+        <ul>
           <li><a href="">Tokyo Olympics: gold for Great Britain!</a></li>
           <li><a href="">A day in the life of</a></li>
           <li>
@@ -161,7 +173,7 @@
           <li>
             <a href="">Jellyfish apocalypse is coming claim scientists</a>
           </li>
-        </ol>
+        </ul>
       </section>
     </main>
     <footer>
